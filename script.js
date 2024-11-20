@@ -4,7 +4,7 @@ const scroll = new LocomotiveScroll({
 });
 
 window.addEventListener('load', () => {
-    const audio = new Audio('bgm.mp3');
+    const audio = new Audio('./assets/music/bgm.mp3');
     audio.loop = true;
     audio.play().catch(error => {
         console.log('Autoplay prevented:', error);
